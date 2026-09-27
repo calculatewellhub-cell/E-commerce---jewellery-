@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  
+  <defs>
+    <radialGradient id="bg6" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#1d4a40"/>
+      <stop offset="100%" stop-color="#0a1f1a"/>
+    </radialGradient>
+    <radialGradient id="spot6" cx="50%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7a5a1e"/>
+      <stop offset="25%" stop-color="#f6e3a1"/>
+      <stop offset="50%" stop-color="#b8892f"/>
+      <stop offset="72%" stop-color="#fff3c4"/>
+      <stop offset="100%" stop-color="#8a6a2c"/>
+    </linearGradient>
+    <linearGradient id="metalV6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="45%" stop-color="#b8892f"/>
+      <stop offset="100%" stop-color="#7a5a1e"/>
+    </linearGradient>
+    <radialGradient id="gem6" cx="38%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#ffd0d8"/>
+      <stop offset="45%" stop-color="#e0204a"/>
+      <stop offset="100%" stop-color="#7a0a22"/>
+    </radialGradient>
+    <radialGradient id="shadow6" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow6" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg6)"/>
+  <rect width="800" height="800" fill="url(#spot6)"/>
+  
+    <ellipse cx="400" cy="660" rx="280" ry="40" fill="url(#shadow6)"/>
+    
+      <ellipse cx="400" cy="380" rx="240" ry="110" fill="none" stroke="url(#metalV6)" stroke-width="46"/>
+      <ellipse cx="400" cy="374" rx="240" ry="110" fill="none" stroke="url(#metal6)" stroke-width="30"/>
+      <ellipse cx="400" cy="374" rx="240" ry="110" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2" stroke-dasharray="6 14"/>
+      <circle cx="186.2" cy="423.9" r="9" fill="url(#gem6)"/><circle cx="223.8" cy="448.7" r="9" fill="url(#gem6)"/><circle cx="274.6" cy="467.8" r="9" fill="url(#gem6)"/><circle cx="334.9" cy="479.9" r="9" fill="url(#gem6)"/><circle cx="400.0" cy="484.0" r="9" fill="url(#gem6)"/><circle cx="465.1" cy="479.9" r="9" fill="url(#gem6)"/><circle cx="525.4" cy="467.8" r="9" fill="url(#gem6)"/><circle cx="576.2" cy="448.7" r="9" fill="url(#gem6)"/><circle cx="613.8" cy="423.9" r="9" fill="url(#gem6)"/>
+      <ellipse cx="400" cy="450" rx="240" ry="110" fill="none" stroke="url(#metalV6)" stroke-width="46"/>
+      <ellipse cx="400" cy="444" rx="240" ry="110" fill="none" stroke="url(#metal6)" stroke-width="30"/>
+      <ellipse cx="400" cy="444" rx="240" ry="110" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2" stroke-dasharray="6 14"/>
+      <circle cx="186.2" cy="493.9" r="9" fill="url(#gem6)"/><circle cx="223.8" cy="518.7" r="9" fill="url(#gem6)"/><circle cx="274.6" cy="537.8" r="9" fill="url(#gem6)"/><circle cx="334.9" cy="549.9" r="9" fill="url(#gem6)"/><circle cx="400.0" cy="554.0" r="9" fill="url(#gem6)"/><circle cx="465.1" cy="549.9" r="9" fill="url(#gem6)"/><circle cx="525.4" cy="537.8" r="9" fill="url(#gem6)"/><circle cx="576.2" cy="518.7" r="9" fill="url(#gem6)"/><circle cx="613.8" cy="493.9" r="9" fill="url(#gem6)"/>
+  <path d="M160 132 Q160 150 178 150 Q160 150 160 168 Q160 150 142 150 Q160 150 160 132Z" fill="#fff" opacity="0.9"/><path d="M640 188 Q640 200 652 200 Q640 200 640 212 Q640 200 628 200 Q640 200 640 188Z" fill="#fff" opacity="0.7"/><path d="M600 550 Q600 560 610 560 Q600 560 600 570 Q600 560 590 560 Q600 560 600 550Z" fill="#fff" opacity="0.6"/><path d="M200 512 Q200 520 208 520 Q200 520 200 528 Q200 520 192 520 Q200 520 200 512Z" fill="#fff" opacity="0.5"/><path d="M470 113 Q470 120 477 120 Q470 120 470 127 Q470 120 463 120 Q470 120 470 113Z" fill="#fff" opacity="0.6"/>
+</svg>
